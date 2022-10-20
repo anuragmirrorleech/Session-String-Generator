@@ -20,7 +20,7 @@ else:
     API_ID = 15939361
     API_HASH = "f8beb0bd0054a717d84fbe9be12a23ea"
     BOT_TOKEN = "5696979182:AAF5nJjRjqdLT8cZO5DQqiyiUM5jg2Li1NE"
-    DATABASE_URL = "None"
+    DATABASE_URL = "postgresql://postgres:EJCJEr1F55fBVx828QPV@containers-us-west-53.railway.app:5820/railway"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = "@sources_cods"
     if MUST_JOIN.startswith("@"):
